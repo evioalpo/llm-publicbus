@@ -1,0 +1,2 @@
+cohere==5.3.3
+pymupdf
