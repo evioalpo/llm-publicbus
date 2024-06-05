@@ -53,7 +53,7 @@ with st.sidebar:
     # st.write(f"Selected document: {selected_doc}")
 
 # Set the title of the Streamlit app
-st.title("💬 HKIS Bus Helper")
+st.title("💬 HK Public Bus Helper")
 
 # Initialize the chat history with a greeting message
 if "messages" not in st.session_state:
