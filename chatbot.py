@@ -57,7 +57,7 @@ st.title("💬 HK Public Bus Helper")
 
 # Initialize the chat history with a greeting message
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [{"role": "assistant", "text": "Hi! I'm the HKIS Bus Helper. Select your location from the dropdown then ask me where you'd like to go and I'll do my best to find a school bus that will get you there."}]
+    st.session_state["messages"] = [{"role": "assistant", "text": "Hi! I'm the HK Public Bus Helper. Select your location from the dropdown then ask me where you'd like to go and I'll do my best to find a school bus that will get you there."}]
 
 # Display the chat messages
 for msg in st.session_state.messages:
